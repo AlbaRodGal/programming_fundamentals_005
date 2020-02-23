@@ -136,7 +136,7 @@ describe("Object.get", () => {
   });
 });
 
-describe.only("Object.has", () => {
+describe("Object.has", () => {
   test("returns true if the object has the give key", () => {
     const obj1 = { name: "Sally", location: "Leeds" };
     expect(Object.has(obj1, "name")).toBe(true);
@@ -161,7 +161,7 @@ describe.only("Object.has", () => {
   });
 });
 
-describe("Object.sum", () => {
+describe.only("Object.sum", () => {
   test("returns the sum of all the values when all values are numbers", () => {
     const obj = {
       a: 1,
