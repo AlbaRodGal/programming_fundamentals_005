@@ -199,7 +199,7 @@ describe("Object.sum", () => {
   });
 });
 
-describe.only("Object.invert", () => {
+describe("Object.invert", () => {
   test("returns a new object which is the inversion of the given object", () => {
     const original = {
       name: "Sally",
@@ -234,7 +234,7 @@ describe.only("Object.invert", () => {
   });
 });
 
-describe("Object.addAll", () => {
+describe.only("Object.addAll", () => {
   test("Creates a new object out of all the objects in an array", () => {
     const objects = [{ a: 1 }, { b: 3 }, { c: "foo" }];
 
