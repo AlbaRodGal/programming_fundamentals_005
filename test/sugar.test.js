@@ -234,7 +234,7 @@ describe("Object.invert", () => {
   });
 });
 
-describe.only("Object.addAll", () => {
+describe("Object.addAll", () => {
   test("Creates a new object out of all the objects in an array", () => {
     const objects = [{ a: 1 }, { b: 3 }, { c: "foo" }];
 
@@ -272,7 +272,7 @@ describe.only("Object.addAll", () => {
   });
 });
 
-describe("Object.find", () => {
+describe.only("Object.find", () => {
   test("returns the found value if the object contains a value that matches the matcher function", () => {
     function matcherFunc(val) {
       return val > 99;
